@@ -1,0 +1,44 @@
+
+Spanish term appears with tooltip on hover or a hint button.
+
+symbols all - [u, intersection, minus, subset, disjoint, empty, complement] and generate 4 random options from this with one correct option
+for sounds - [union, intersection, complement, minus, subset, disjoint, null, power, infinite] generate 4 random options from this with one correct option 
+
+
+basket game, conveyor belt, mole game  - tiles, sizes, more questions for different operations and increasing difficulty, more images and random image selection from question set
+set builder game - add different types of sets, power etc and then varying question sets for each
+questions for each game to levels and points, size increase
+add score to each game and 
+Quiz - Total points or score
+connect to central scoring system displayed for each game
+separate questions, images for each game to add levels 
+level unlocking logic central
+
+
+study - complete information with images, videos, examples, practice quiz
+quiz add outside with general set question, maybe quizzes section different
+games
+gamesprogress
+leaderboard/videos etx
+
+
+
+
+null/empty
+disjoint
+subset
+equal
+complement
+infinite
+singleton
+power
+
+
+
+To tell professor - changed everything brainstormed, opposite and team structure change
+added hint, translation, changed quiz, added games,
+need to add more sets for each, more questions and levels
+added global score
+add new questions
+add the levsls and score progress
+

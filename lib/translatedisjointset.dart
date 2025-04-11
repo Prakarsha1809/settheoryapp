@@ -6,7 +6,7 @@ import 'solve.dart';
 import 'translate.dart';
 import 'example.dart';
 import 'quiz.dart';
-import 'disjointsetgame.dart';
+import 'games/disjointsetgame.dart';
 
 class TranslateDisjointSetPage extends StatelessWidget {
   const TranslateDisjointSetPage({super.key});

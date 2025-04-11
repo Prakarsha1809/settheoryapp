@@ -5,6 +5,7 @@ import 'solve.dart';
 import 'translate.dart';
 import 'example.dart';
 import 'quiz.dart';
+import 'games/conveyorgame.dart';
 
 class SubsetPage extends StatelessWidget {
   const SubsetPage({super.key});
@@ -70,7 +71,7 @@ class SubsetPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  _buildCustomButton(context, 'EXAMPLE', 'assets/images/example.png', const ExamplePage()),
+                  _buildCustomButton(context, 'EXAMPLE', 'assets/images/example.png', const IntersectionSetGame()),
                   _buildCustomButton(context, 'TRANSLATE', 'assets/images/translate.png', const TranslatePage()),
                   _buildCustomButtonWithImage(context, 'PRACTICE', 'assets/images/solveicon.png', const QuizPage()),
                 ],

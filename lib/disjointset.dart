@@ -3,7 +3,7 @@ import 'theory.dart';
 import 'solve.dart';
 import 'translate.dart';
 import 'example.dart';
-import 'disjointsetgame.dart';
+import 'games/disjointsetgame.dart';
 import 'translatedisjointset.dart';
 import 'quiz.dart'; // Only import quiz.dart once
 

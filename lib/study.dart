@@ -140,15 +140,15 @@ class StudyPage extends StatelessWidget {
                 itemCount: 9,
                 itemBuilder: (context, index) {
                   final buttons = [
-                    _buildStudyButton('SET', Colors.red, context),
-                    _buildStudyButton('EMPTY SET', Colors.orange, context),
-                    _buildStudyButton('SUBSET', Colors.yellow, context),
-                    _buildStudyButton('UNIVERSAL SET', Colors.green, context),
-                    _buildStudyButton('DISJOINT SET', Colors.blue, context),
-                    _buildStudyButton('EQUAL SET', Colors.purple, context),
-                    _buildStudyButton('INFINITE SET', Colors.pink, context),
-                    _buildStudyButton('SINGLETON SET', Colors.cyan, context),
-                    _buildStudyButton('POWER SET', Colors.deepOrange, context),
+                    _buildStudyButton('SET', Colors.red.shade400, context),
+                    _buildStudyButton('EMPTY SET', Colors.orange.shade400, context),
+                    _buildStudyButton('SUBSET', Colors.yellow.shade400, context),
+                    _buildStudyButton('UNIVERSAL SET', Colors.green.shade400, context),
+                    _buildStudyButton('DISJOINT SET', Colors.blue.shade400, context),
+                    _buildStudyButton('EQUAL SET', Colors.purple.shade400, context),
+                    _buildStudyButton('INFINITE SET', Colors.pink.shade400, context),
+                    _buildStudyButton('SINGLETON SET', Colors.cyan.shade400, context),
+                    _buildStudyButton('POWER SET', Colors.deepOrange.shade400, context),
                   ];
                   return buttons[index];
                 },

@@ -6,7 +6,7 @@ import 'solve.dart';
 import 'translate.dart';
 import 'example.dart';
 import 'quiz.dart';
-import 'universalsetgame.dart';
+import 'games/universalsetgame.dart';
 
 class TranslateUniversalPage extends StatelessWidget {
   const TranslateUniversalPage({super.key});

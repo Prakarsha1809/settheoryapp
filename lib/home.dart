@@ -705,7 +705,7 @@ class Home extends StatelessWidget {
                     const SizedBox(height: 20), // Add spacing between buttons
                     _buildCustomButtonWithImage(context, 'QUIZ', const Color(0xFFB3E0FF), 'assets/images/quizicon.png', const QuizPage()),
                     const SizedBox(height: 20), // Add spacing between buttons
-                    _buildCustomButtonWithImage(context, 'PLAY', const Color(0xFFFF8D1E), 'assets/images/play.png', const PlayPage()),
+                    _buildCustomButtonWithImage(context, 'GAMES', const Color(0xFFFF8D1E), 'assets/images/play.png', const PlayPage()),
                     const SizedBox(height: 20), // Add spacing between buttons
                     _buildCustomButtonWithImage(context, 'PROGRESS', const Color(0xFF66FF66), 'assets/images/progress.png', const ProgressPage()),
                     const SizedBox(height: 20), // Add spacing after the last button

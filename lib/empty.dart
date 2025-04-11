@@ -6,6 +6,7 @@ import 'translate.dart';
 import 'example.dart';
 import 'quiz.dart';
 import 'translateempty.dart';
+import 'games/universalsetgame.dart';
 
 class EmptyPage extends StatelessWidget {
   const EmptyPage({super.key});
@@ -141,7 +142,7 @@ class EmptyPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  _buildCustomButton(context, 'EXAMPLE', 'assets/images/example.png', const ExamplePage()),
+                  _buildCustomButton(context, 'EXAMPLE', 'assets/images/example.png', const UniversalSetGamePage()),
                   _buildCustomButton(context, 'TRANSLATE', 'assets/images/translate.png', const TranslateEmptyPage()),
                   _buildCustomButtonWithImage(context, 'PRACTICE', 'assets/images/solveicon.png', const QuizPage()),
                 ],

@@ -5,8 +5,10 @@ import 'solve.dart';
 import 'translate.dart';
 import 'example.dart';
 import 'quiz.dart';
-import 'universalsetgame.dart';
+import 'games/universalsetgame.dart';
 import 'translateuniversal.dart';
+import 'games/basketgame.dart';
+
 
 class UniversalSetPage extends StatelessWidget {
   const UniversalSetPage({super.key});
@@ -108,7 +110,7 @@ class UniversalSetPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  _buildCustomButton(context, 'GAME', 'assets/images/example.png', const UniversalSetGamePage()),
+                  _buildCustomButton(context, 'GAME', 'assets/images/example.png', const UniversalSetBasketGame()),
                   _buildCustomButton(context, 'TRANSLATE', 'assets/images/translate.png', const TranslateUniversalPage()),
                   _buildCustomButtonWithImage(context, 'PRACTICE', 'assets/images/solveicon.png', const QuizPage()),
                 ],

@@ -4,6 +4,7 @@ import 'theory.dart';
 import 'solve.dart';
 import 'translate.dart';
 import 'example.dart';
+import 'equalsetgame';
 
 class EqualSetPage extends StatelessWidget {
   const EqualSetPage({super.key});
@@ -93,9 +94,9 @@ class EqualSetPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  _buildCustomButton(context, 'EXAMPLE', 'assets/images/example.png', const EqualExamplePage()),
+                  _buildCustomButton(context, 'EXAMPLE', 'assets/images/example.png', const ExamplePage()),
                   _buildCustomButton(context, 'TRANSLATE', 'assets/images/translate.png', const TranslatePage()),
-                  _buildCustomButtonWithImage(context, 'PRACTICE', 'assets/images/solveicon.png', const EqualQuizPage()),
+                  _buildCustomButtonWithImage(context, 'PRACTICE', 'assets/images/solveicon.png', const EqualSetGamePage()),
                 ],
               ),
             ],
